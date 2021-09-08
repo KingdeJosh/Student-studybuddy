@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:layout_weight="1.13"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:id="@+id/editBatchCode"
+                    android:hint="Course Code"
+                    android:inputType="textPersonName"
+                    android:drawableLeft="@drawable/ic_action_class"
+                    android:enabled="false"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:id="@+id/editCourse"
+                    android:hint="Course"
+                    android:inputType="textPersonName"
+                    android:drawableLeft="@drawable/ic_action_edit"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="casual"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:id="@+id/textBatchDate"
+                    android:hint="Start Date (2017-05-15)"
+                    android:inputType="textPersonName"
+                    android:drawableLeft="@drawable/ic_action_date"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="casual"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:id="@+id/endBatchDate"
+                    android:hint="End Date (2017-05-15)"
+                    android:inputType="textPersonName"
+                    android:drawableLeft="@drawable/ic_action_date"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="casual"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:id="@+id/editRemarks"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Description"
+                    android:inputType="textPersonName"
+                    android:drawableLeft="@drawable/ic_action_edit"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:fontFamily="casual"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout></ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAccept"
+        android:text="Update"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:padding="1dp"
+        android:onClick="updateBatch"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="3dp" />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="drawable" format="integer"/>
+        <attr name="colors" format="color"/>
+        <attr name="shadowRadius" format="float"/>
+        <attr name="shadowDx" format="float"/>
+        <attr name="shadowDy" format="float"/>
+        <attr name="shadowColor" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="WeekView">
+    <attr name="firstDayOfWeek" format="enum">
+        <enum name="sunday" value="1"/>
+        <enum name="monday" value="2"/>
+        <enum name="tuesday" value="3"/>
+        <enum name="wednesday" value="4"/>
+        <enum name="thursday" value="5"/>
+        <enum name="friday" value="6"/>
+        <enum name="saturday" value="7"/>
+    </attr>
+    <attr name="hourHeight" format="dimension"/>
+    <attr name="minHourHeight" format="dimension"/>
+    <attr name="maxHourHeight" format="dimension"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="eventTextSize" format="dimension"/>
+    <attr name="headerColumnPadding" format="dimension"/>
+    <attr name="headerRowPadding" format="dimension"/>
+    <attr name="columnGap" format="dimension"/>
+    <attr name="headerColumnTextColor" format="color"/>
+    <attr name="noOfVisibleDays" format="integer"/>
+    <attr name="showFirstDayOfWeekFirst" format="boolean"/>
+    <attr name="headerRowBackgroundColor" format="color"/>
+    <attr name="dayBackgroundColor" format="color"/>
+    <attr name="hourSeparatorColor" format="color"/>
+    <attr name="todayBackgroundColor" format="color"/>
+    <attr name="todayHeaderTextColor" format="color"/>
+    <attr name="hourSeparatorHeight" format="dimension"/>
+    <attr name="eventTextColor" format="color"/>
+    <attr name="eventPadding" format="dimension"/>
+    <attr name="headerColumnBackground" format="color"/>
+    <attr name="dayNameLength" format="enum">
+        <enum name="length_short" value="1"/>
+        <enum name="length_long" value="2"/>
+    </attr>
+    <attr name="overlappingEventGap" format="dimension"/>
+    <attr name="eventMarginVertical" format="dimension"/>
+    <attr name="xScrollingSpeed" format="float"/>
+    <attr name="eventCornerRadius" format="dimension"/>
+    <attr name="showDistinctPastFutureColor" format="boolean"/>
+    <attr name="showDistinctWeekendColor" format="boolean"/>
+    <attr name="futureBackgroundColor" format="color"/>
+    <attr name="pastBackgroundColor" format="color"/>
+    <attr name="futureWeekendBackgroundColor" format="color"/>
+    <attr name="pastWeekendBackgroundColor" format="color"/>
+    <attr name="showNowLine" format="boolean"/>
+    <attr name="nowLineColor" format="color"/>
+    <attr name="nowLineThickness" format="dimension"/>
+    <attr name="horizontalFlingEnabled" format="boolean"/>
+    <attr name="verticalFlingEnabled" format="boolean"/>
+    <attr name="allDayEventHeight" format="dimension"/>
+    <attr name="scrollDuration" format="integer"/>
+</declare-styleable>
+</resources>

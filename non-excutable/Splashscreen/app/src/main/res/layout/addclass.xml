@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="419dp"
+    android:layout_weight="1.13"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/textBatchCode"
+            android:hint="Course Code"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_class"
+            android:enabled="false"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/textCourse"
+            android:hint="Module"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_edit"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/textClassTime"
+            android:hint="Time (19:00)"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_time"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/textClassDate"
+            android:hint="Date (2017-05-15)"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_date"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:id="@+id/editLecturer"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Lecturer"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="12dp"
+            android:fontFamily="casual"
+            android:drawableTint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:id="@+id/editRoom"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Room/Class/Hall"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_streetview_white_24dp"
+            android:drawablePadding="12dp"
+            android:fontFamily="casual"
+            android:drawableTint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:id="@+id/editPeriod"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Period (min)"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_time"
+            android:drawablePadding="12dp"
+            android:fontFamily="casual"
+            android:drawableTint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:id="@+id/description"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Actvity description"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_edit"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+    </android.support.design.widget.TextInputLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choose Timetable Type:"
+    android:fontFamily="casual"
+    android:textStyle="bold"
+    android:textSize="16dp"/>
+    <RadioGroup
+        android:id="@+id/radioType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rbtn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Class"
+            android:fontFamily="casual"
+            app:buttonTint="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reading"
+            android:fontFamily="casual"
+            android:buttonTint="@color/colorPrimary"/>
+        <RadioButton
+            android:id="@+id/radioExam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam"
+            android:fontFamily="casual"
+            android:buttonTint="@color/colorPrimary"/>
+
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/chkAdjust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Adjust Last timetable activity?" />
+
+
+    </LinearLayout>
+</ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAccept"
+        android:text="@string/lbl_save"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:padding="1dp"
+        android:onClick="addClass"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="3dp" />
+</LinearLayout>
+
+
+

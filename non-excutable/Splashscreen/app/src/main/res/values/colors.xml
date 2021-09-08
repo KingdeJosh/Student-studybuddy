@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C48E48</color>
+    <color name="colorPrimaryDark">#a96b23</color>
+    <color name="colorAccent">#121111</color>
+    <color name="colorWhitebrown">#DEB887</color>
+
+    <color name="colortext">#FF131313</color>
+    <color name="colorhint">#a9aaac</color>
+
+    <color name="colordarker_red">#911710</color>
+    <color name="colordark_red">#c71f16</color>
+    <color name="colormedium_red">#7e3200</color>
+    <color name="colordark_orange">#c74b16</color>
+    <color name="colordarkest_orange"> #913710</color>
+    <color name="colormedium_orange">#e86830</color>
+    <color name="colorlight_orange"> #ee8f66</color>
+    <!-- #c71f16 dark red
+    #911710 darker red
+    #e83a30 medium red
+    https://dribbble.com/colors/e86830?percent=30
+    #c74b16 dark orange
+    #913710 darkest orange
+    #e86830 medium orange
+    #ee8f66 light ORANGE-->
+
+    <color name="fab_color_main">#d7933a</color>
+    <color name="fab_color_addon">#f44a06</color>
+
+    <color name="action_bar_color">#0277bd</color>
+    <color name="action_bar_text_color">#fafafa</color>
+    <color name="drawer_background">#fafafa</color>
+    <color name="drawer_selected">#ff9100</color>
+
+    <color name="default_button">#0277bd</color>
+    <color name="default_button_pressed">#01579b</color>
+    <color name="card_undobar_material_text_color">#40c4ff</color>
+    <color name="card_undobar_material_background_color">#EE323232</color>
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="backgroundcolour">#fc946f</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="primary">#F44336</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="primary_text">#212121</color>
+    <color name="accent">#FFC107</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#FFFFFF</color>
+    <color name="text">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_strip">#B42929</color>
+
+
+    <color name="priority_hight">#E57373</color>
+    <color name="priority_normal">#81C784</color>
+    <color name="priority_low">#4FC3F7</color>
+
+    <color name="priority_hight_selected">#FFCDD2</color>
+    <color name="priority_normal_selected">#C8E6C9</color>
+    <color name="priority_low_selected">#B3E5FC</color>
+
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_200">#EEEEEE</color>
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+
+</resources>

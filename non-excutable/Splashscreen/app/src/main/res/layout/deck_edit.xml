@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="46dp"
+        android:layout_marginTop="45dp"
+        android:text="Add a Card Deck"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/deck_name"
+            android:hint="@string/lbl_name"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_class"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/deck_desc"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/lbl_description"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_edit"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect1"
+        android:id="@+id/btnAccept"
+        android:text="@string/lbl_save"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="12dp"
+        android:onClick="onSaveButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="3dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect1"
+        android:text="@string/lbl_cancel"
+        android:id="@+id/btnCancel"
+        android:textSize="16dp"
+        android:onClick="onCancelButton"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="11dp"
+        android:elevation="3dp" />
+</LinearLayout>

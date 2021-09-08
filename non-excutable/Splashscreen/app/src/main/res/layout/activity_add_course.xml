@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.akujobijoshua.StudentBuddy.Fragments.AddCourse">
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Add a Course"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+android:id="@+id/CourseId"
+        android:hint="Course or Module ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CourseName"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Course Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/LecName"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Lecturer Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/LecEmail"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="LecEmail"
+        android:inputType="textEmailAddress" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/LectPhone"
+        android:hint="LecPhone"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:layout_margin="15dp"
+        android:paddingLeft="70dp"
+        android:id="@+id/btnAddCourse"
+        android:paddingRight="70dp"
+        android:text="Add Course"
+        android:textColor="#fff" />
+</LinearLayout>

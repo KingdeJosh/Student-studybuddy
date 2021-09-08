@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akujobijoshua.StudentBuddy">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Allow to connect with internet and to know the current network state -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/studlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Fragments.AddCourse" />
+        <activity android:name=".Fragments.RecorderFragment" android:label="Recorder"  android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Notetaker.NoteActivity">
+        </activity>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.akujobijoshua.StudentBuddy.fileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <service android:name=".RecordTaker.RecordingService" />
+
+
+        <activity android:name=".Flashcard.CardsList"></activity>
+        <activity android:name=".Flashcard.CardEdit" android:label="@string/app_name"></activity>
+        <activity android:name=".Flashcard.Play"></activity>
+        <activity android:name=".Flashcard.MultiSelCardsList"></activity>
+        <activity android:name=".Flashcard.DeckEdit"></activity>
+        <activity android:name=".Flashcard.Import" android:label="@string/lbl_import"></activity>
+        <activity android:name=".Flashcard.Results" android:theme="@style/AppTheme" ></activity>
+        <activity android:name=".todolis.MainAct" android:theme="@style/AppTheme.NoActionBar" android:label="Todo List"></activity>
+
+        <activity android:label="Add Batch"  android:theme="@style/AppTheme" android:name=".Timetable.AddBatchActivity" />
+        <activity android:label="List Classes" android:theme="@style/AppTheme"  android:name=".Timetable.ListClassesActivity" />
+        <activity android:label="Add Class"   android:name=".Timetable.AddClassActivity" />
+        <activity android:label="Update Batch"   android:name=".Timetable.UpdateBatchActivity" />
+        <activity android:label="Update Class"   android:name=".Timetable.UpdateClassActivity" />
+        <receiver
+            android:name=".todolis.alarm.AlarmReciver"
+            android:process=":remote" />
+
+        <receiver android:name=".todolis.alarm.AllarmSetter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/ic_action_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_Notes"
+            android:icon="@drawable/ic_note"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_Rec"
+            android:icon="@drawable/ic_launcher"
+            android:title="Recordings" />
+        <item
+            android:id="@+id/nav_flashcard"
+            android:icon="@drawable/flashcard1"
+            android:title="Flashcard" />
+        <item
+            android:id="@+id/nav_Calender"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Calender" />
+        <item
+            android:id="@+id/nav_todolist"
+            android:icon="@drawable/ic_task"
+            android:title="Todo List" />
+        <item
+            android:id="@+id/nav_Timetable"
+            android:icon="@drawable/ic_action_class"
+            android:title="Timetable" />
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_GPA"
+                android:icon="@drawable/ic_calculator"
+                android:title="GPA Calculator" />
+
+            <item
+                android:id="@+id/nav_Chat"
+                android:icon="@drawable/ic_note"
+                android:title="Courses" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
