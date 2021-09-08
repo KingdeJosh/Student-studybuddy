@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.0.0_f514277145fdf769a889e13b32502047f249910a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_798857539e46b88cbc4733ed4327c98598c62643\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_5487568f2dc3ef56bd3d6cb3b63c4a4af49d43a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_65862b4fdca77a5b9fec505bc82d114a9e64cf84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4bf6a794753dd87e2c7befbbf803ad2b94953bfe">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9792bd421815ece87eb5d2a85294eef73cf3ca96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_9307692801f534f9c8a49727e2d4ec2991236dd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_75c4e47a9824df75ae1f5bb152ede7fa8774a678\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_8d2d80e5c6387166441f718b659a1e460709554b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_6f04d8cf9c7ed0ab2e6db8f20c6239d870ee15a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_12aacbd76a4158e64036a10973fa7555045ff437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e4844f0c210d7dd299c907e1b64528739de3dd3">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3d1f503796098cff3c81263bc9950e50eb0aa8d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter-extensions\2.5.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="85abda6c528aef8f42460b9d7d5c99c44da1fa5a">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-fastadapter-extensions-2.5.2_d04591e3fa6057cbc596af4e18e752116a071450\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_196c26480affbb3df7914458b1abc34647e933c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.weiwangcn.betterspinner-library-material-1.1.0_460aa89a5bee0f2469160e22adfd7b9c71269cb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.melnykov-floatingactionbutton-1.3.0_b2e9cbeea43bf5de5c37d903f59aa25bf9ea274f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_f3fecc3fd4f2e1e76791ba1b0d9bc9534f0a4fc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.8.0_0901dd12ebfecd6086db6283aa52a7971f54027d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_6a61dc77c7f6ea8130c95f5aafdc20b3907fe254\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.mikepenz\materialize\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="08303b8b376b0399b932f863fc616109833f7124">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialize-1.0.1_ea336f91e19949f0e338f675f11628bbdab3216d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_164b3aeab30bfa5fe8b37d993fa70f11ce8d3907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.8.0_6263ee1b53a9ecf52348dcfb8197c75c7336b03b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.4.0_96e62c6674de575a170b4371f620e22ee610c767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.0.3_f8f69ee89436663068222e482e3f05a67e5b5a92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_17719c7b93e2c8203c2b537c4ad98a70da788c3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_6f679b88e30eab90fc01771eae96673f3dbe79d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="15ebf37e2dc7047e993afdfb308610e171bcea1b">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jpardogo.materialtabstrip-library-1.0.6_d27131f18bd5c2617ebecedebfc60a8e376b9050\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_77f1647f13f470a4407f4144a8da968afc901c30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_22284ced58d6a25fbc474aaf035f05441efc8f3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\library\1.9.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a64671bd87b29748d87865871cc95147b89a2192">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-library-1.9.1_0f81726b3f15cc8a838a28c4923bc451ff265bfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_649923229b145983e331ee939b1af32d7b98fb8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_24e0064a224b89cf93a42968af7ccded0de9d830\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_94c8ba4422d34ba1daaf82e54dd88776e3f5f09d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_7fb8712131f7461632ef0fa6ce92488334407a46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_4b26dd61555366465e195debd99021c01edba384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_d815ddd4cc57c739d1d40d91c5d26831422726c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_0b614baa18d8a21320cc863ee156d001d8906928\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_ca7958c79dcaa3acf71281e75f0d2998730fb3c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_c7a5b4334b67ee633f13953b97a7411a0c1c95af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_6db7608cc7f60533aca0df1b363a0ac30c3ca2d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_cfe953f2016b4acb774b7e9d0000821532577540\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_13e68e513ac2b4a4ea90f0e9c53be1bf05388430\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akujobi Joshua\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Android\Roid Documents\Final Year\Splashscreen\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_8b470eb2901e44749f82d00cfd29fcae29c9d09b\classes.dex" />
+    </item>
+
+</items>
